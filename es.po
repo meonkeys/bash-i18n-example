@@ -1,2 +1,5 @@
 msgid "Hello!"
 msgstr "¡Hola!"
+
+msgid "Hello $USER!"
+msgstr "¡Hola $USER!"
