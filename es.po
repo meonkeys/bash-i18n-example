@@ -1,2 +1,26 @@
 msgid "Hello!"
-msgstr "¡Hola!"
+msgstr "Hola!"
+
+msgid "Bye $USER!"
+msgstr "Adios $USER!"
+
+msgid "Here $THERE $COUNT $FRUIT"
+msgstr "Aqui $THERE $COUNT $FRUIT"
+
+msgid "there is" 
+msgstr "hay"
+
+msgid "there are"
+msgstr "hay"
+
+msgid "orange" 
+msgstr "naranja"
+
+msgid "oranges"
+msgstr "naranjas"
+
+msgid "emptylang"
+msgstr "sin lenguage"
+
+msgid "language set to $L"
+msgstr "lenguaje establecido a $L"

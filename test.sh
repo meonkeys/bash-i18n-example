@@ -1,9 +1,20 @@
 #!/bin/bash
-mkdir -p locale/es/LC_MESSAGES
-msgfmt -o locale/es/LC_MESSAGES/test.sh.mo es.po
-echo Default locale:
-echo ... $"Hello!"
-TEXTDOMAIN=$0
-TEXTDOMAINDIR=`pwd`/locale
-echo Language set to Spanish:
-echo ... $"Hello!"
+
+function plurals() {
+   COUNT=$1
+   THERE=$(ngettext $"there is" $"there are" $COUNT)
+   FRUIT=$(ngettext $"orange" $"oranges" $COUNT)
+
+   echo $"Here $THERE $COUNT $FRUIT"
+}
+
+EMPTY_LANG=$"emptylang"
+L=${LANGUAGE:-$EMPTY_LANG}
+echo $(gettext "language set to $L")
+echo
+echo $"Hello!"
+echo $"Bye $USER!"
+plurals 0
+plurals 1
+plurals 4
+echo
