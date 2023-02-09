@@ -1,8 +1,8 @@
 msgid "Hello!"
-msgstr "Hola!"
+msgstr "¡Hola!"
 
 msgid "Bye $USER!"
-msgstr "Adios $USER!"
+msgstr "¡Adios $USER!"
 
 msgid "Here $THERE $COUNT $FRUIT"
 msgstr "Aqui $THERE $COUNT $FRUIT"
